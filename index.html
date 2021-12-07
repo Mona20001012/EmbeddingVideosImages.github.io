@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet"  type="text/css" href="style.css" />
+  <title>Embedding Images and Video</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <button class="btn menu-btn">
+        <img src="img/menu.svg" alt="menu" />
+      </button>
+      <button class="btn home-btn">
+        <img src="img/youtube.svg" alt="youtube logo" />
+        <h1>YouTube</h1>
+      </button>
+      <div class="search-bar">
+        <input class="search-input" type="text" placeholder="Search" />
+        <button class="btn search-btn">
+          <img src="img/magnify.svg" alt="magnify" />
+        </button>
+      </div>
+      <div class="user-options">
+        <button class="btn add-video-btn">
+          <img src="img/video-plus.svg" alt="add video" />
+        </button>
+        <button class="btn apps-btn">
+          <img src="img/apps.svg" alt="apps" />
+        </button>
+        <button class="btn options-btn">
+          <img src="img/dots-vertical.svg" alt="options" />
+        </button>
+        <button class="btn sign-btn">
+          <img src="img/account-circle.svg" alt="no user avatar" />
+          <span>SIGN IN</span>
+        </button>
+      </div>
+    </header>
+    <div class="content">
+      <main>
+        <section class="video-container">
+          <div class="player">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Yiv0jAJNna8"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="video-info">
+            <h1 class="video-title">Tom & Jerry | It's Cold Outside!🥶 | Classic Cartoon Compilation </h1>
+            <div class="video-primary-info">
+              <p class="video-views-date">500,009 views dec 4, 2021</p>
+              <div class="video-options">
+                <div class="likes-percents">
+                  <button class="btn like-btn">
+                    <img src="img/thumb-up.svg" alt="likes" />
+                    <span>3.6K</span>
+                  </button>
+                  <button class="btn dislike-btn">
+                    <img src="img/thumb-down.svg" alt="dislikes" />
+                    <span>0</span>
+                  </button>
+                </div>
+                <button class="btn share-btn">
+                  <img src="img/share.svg" alt="share" />
+                  <span>SHARE</span>
+                </button>
+                <button class="btn save-btn">
+                  <img src="img/playlist-plus.svg" alt="save" />
+                  <span>SAVE</span>
+                </button>
+                <button class="btn more-options-btn">
+                  <img src="img/dots-horizontal.svg" alt="more options" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="description">
+          <div class="channel-info">
+            <div class="channel-logo">
+              <a href="https://www.youtube.com/channel/UC9trsD1jCTXXtN3xIOIU8gg" target="_blank">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQyR3-GxqQ3idlI0ybpT5gCqwGHvZKLEAO-zqR4BA=s88-c-k-c0x00ffffff-no-rj"
+                  alt="channel logo" />
+              </a>
+            </div>
+            <div class="channel-primary-info">
+              <div class="channel-name">
+                <a class="channel-link" href="https://www.youtube.com/channel/UC9trsD1jCTXXtN3xIOIU8gg" target="_blank">
+                  Kids World
+                </a>
+                <img src="img/check-circle.svg" alt="verified" />
+              </div>
+              <div class="channel-subscribers-count">10M subscribers</div>
+            </div>
+            <button class="btn subscribe-btn">SUBSCRIBE</button>
+          </div>
+          <div class="video-description">
+            <p class="video-description-para">
+              When it's cold outside, all Tom & Jerry want to do is cuddle up inside and maybe chase each other a
+              little bit before falling asleep. <br />Would you join them?
+            </p>
+            <div class="game-info">
+              <div class="card game">
+                <img
+                  src="img/youtube.svg"
+                  alt="game logo" />
+                <div class="card-info">
+                  <span class="card-title">YouTube Kids </span>
+                  <span class="game-year">2009</span>
+                  <a class="card-link" href="https://www.youtube.com/channel/UCQvWX73GQygcwXOTSf_VDVg">
+                    Learn More
+                    <img src="img/chevron-right.svg" alt="browse game" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <button class="btn show-more-btn">SHOW MORE</button>
+          </div>
+        </section>
+      </main>
+      <aside>
+        <section class="up-next">
+          <div class="autoplay">
+            <span>Up next</span>
+            <span>AUTOPLAY</span>
+            <button class="switch"></button>
+          </div>
+          <a class="thumbnail" href="https://www.youtube.com/watch?v=Lvd7zQtKS74" target="_blank">
+            <div class="thumbnail-img">
+              <img
+                src="https://i.ytimg.com/vi/Lvd7zQtKS74/maxresdefault.jpg"
+                alt="recommendation video" />
+              <div class="duration">
+                <span>17:26</span>
+              </div>
+              <div class="thumbnail-img-overlay">
+                <button class="btn">
+                  <img src="img/clock.svg" alt="watch later" />
+                </button>
+                <button class="btn">
+                  <img src="img/playlist-play.svg" alt="add to queue" />
+                </button>
+              </div>
+            </div>
+    <div class="thumbnail-info">
+      <h3 class="thumbnail-title">
+        Tom & Jerry | Best of Jerry and Little Quacker
+      </h3>
+      <div class="thumbnail-channel-name">
+        Logdotzip
+        <img src="img/check-circle.svg" alt="verified" />
+      </div>
+      <p class="thumbnail-video-info">6,606k views</p>
+      <span class="thumbnail-new">New</span>
+    </div>
+    <div class="thumbnail-overlay">
+      <button class="btn">
+        <img src="img/dots-vertical-thumb.svg" alt="thumbnail options" />
+      </button>
+    </div>
+    </a>
+    </section>
+    <section class="recommendations">
+      <a class="thumbnail" href="https://www.youtube.com/watch?v=Db4_8R3DMHA" target="_blank">
+        <div class="thumbnail-img">
+          <img
+            src="https://i.ytimg.com/vi/Db4_8R3DMHA/maxresdefault.jpg"
+            alt="recommendation video" />
+          <div class="duration">
+            <span>38:44</span>
+          </div>
+          <div class="thumbnail-img-overlay">
+            <button class="btn">
+              <img src="img/clock.svg" alt="watch later" />
+            </button>
+            <button class="btn">
+              <img src="img/playlist-play.svg" alt="add to queue" />
+            </button>
+          </div>
+        </div>
+        <div class="thumbnail-info">
+          <h3 class="thumbnail-title">
+            Princess: Beauty and the Beast I Alice in wonderland
+          </h3>
+          <div class="thumbnail-channel-name">
+            Hindi Tales and Ryms
+          </div>
+          <p class="thumbnail-video-info">Recommended for you</p>
+          <span class="thumbnail-new">New</span>
+        </div>
+        <div class="thumbnail-overlay">
+          <button class="btn">
+            <img src="img/dots-vertical-thumb.svg" alt="thumbnail options" />
+          </button>
+        </div>
+      </a>
+      <a class="thumbnail" href="https://www.youtube.com/watch?v=P2BYM7PYdBk" target="_blank">
+        <div class="thumbnail-img">
+          <img
+            src="https://i.ytimg.com/vi/P2BYM7PYdBk/maxresdefault.jpg"
+            alt="recommendation video" />
+          <div class="duration">
+            <span>21:15</span>
+          </div>
+          <div class="thumbnail-img-overlay">
+            <button class="btn">
+              <img src="img/clock.svg" alt="watch later" />
+            </button>
+            <button class="btn">
+              <img src="img/playlist-play.svg" alt="add to queue" />
+            </button>
+          </div>
+        </div>
+        <div class="thumbnail-info">
+          <h3 class="thumbnail-title">
+            Cash Machine | Mr Bean | Cartoons for Kids
+          </h3>
+          <div class="thumbnail-channel-name">
+            WildBrain Kids
+          </div>
+          <p class="thumbnail-video-info">363k views</p>
+          <span class="thumbnail-new">New</span>
+        </div>
+        <div class="thumbnail-overlay">
+          <button class="btn">
+            <img src="img/dots-vertical-thumb.svg" alt="thumbnail options" />
+          </button>
+        </div>
+      </a>
+      <a class="thumbnail" href="https://www.youtube.com/watch?v=Fu3MIwF-LJw" target="_blank">
+        <div class="thumbnail-img">
+          <img
+            src="https://i.ytimg.com/vi/Fu3MIwF-LJw/maxresdefault.jpg"
+            alt="recommendation video" />
+          <div class="duration">
+            <span>20:07</span>
+          </div>
+          <div class="thumbnail-img-overlay">
+            <button class="btn">
+              <img src="img/clock.svg" alt="watch later" />
+            </button>
+            <button class="btn">
+              <img src="img/playlist-play.svg" alt="add to queue" />
+            </button>
+          </div>
+        </div>
+        <div class="thumbnail-info">
+          <h3 class="thumbnail-title">
+            Tom & Jerry | A Little Mischief Never Hurt Nobody! | Classic Cartoon Compilation
+          </h3>
+          <div class="thumbnail-channel-name">
+            WB Kids
+            <img src="img/check-circle.svg" alt="verified" />
+          </div>
+          <p class="thumbnail-video-info">Recommended for you</p>
+          <span class="thumbnail-new">New</span>
+        </div>
+        <div class="thumbnail-overlay">
+          <button class="btn">
+            <img src="img/dots-vertical-thumb.svg" alt="thumbnail options" />
+          </button>
+        </div>
+      </a>
+      <a class="thumbnail" href="https://www.youtube.com/watch?v=t0Q2otsqC4I" target="_blank">
+        <div class="thumbnail-img">
+          <img
+            src="https://i.ytimg.com/vi/t0Q2otsqC4I/maxresdefault.jpg"
+            alt="recommendation video" />
+          <div class="duration">
+            <span>21:37</span>
+          </div>
+          <div class="thumbnail-img-overlay">
+            <button class="btn">
+              <img src="img/clock.svg" alt="watch later" />
+            </button>
+            <button class="btn">
+              <img src="img/playlist-play.svg" alt="add to queue" />
+            </button>
+          </div>
+        </div>
+        <div class="thumbnail-info">
+          <h3 class="thumbnail-title">
+            Tom & Jerry | Classic Cartoon Compilation
+          </h3>
+          <div class="thumbnail-channel-name">
+            WB Kids
+            <img src="img/check-circle.svg" alt="verified" />
+          </div>
+          <p class="thumbnail-video-info">Recommended for you</p>
+        </div>
+        <div class="thumbnail-overlay">
+          <button class="btn">
+            <img src="img/dots-vertical-thumb.svg" alt="thumbnail options" />
+          </button>
+        </div>
+      </a>
+      <a class="thumbnail" href="https://www.youtube.com/watch?v=QJmKw33k0mA" target="_blank">
+        <div class="thumbnail-img">
+          <img
+            src="https://i.ytimg.com/vi/QJmKw33k0mA/maxresdefault.jpg"
+            alt="recommendation video" />
+          <div class="duration">
+            <span>18:08</span>
+          </div>
+          <div class="thumbnail-img-overlay">
+            <button class="btn">
+              <img src="img/clock.svg" alt="watch later" />
+            </button>
+            <button class="btn">
+              <img src="img/playlist-play.svg" alt="add to queue" />
+            </button>
+          </div>
+        </div>
+        <div class="thumbnail-info">
+          <h3 class="thumbnail-title">
+            Tom & Jerry | Food Adventures 🧀
+          </h3>
+          <div class="thumbnail-channel-name">
+            WB Kids
+          </div>
+          <p class="thumbnail-video-info">13M views</p>
+        </div>
+        <div class="thumbnail-overlay">
+          <button class="btn">
+            <img src="img/dots-vertical-thumb.svg" alt="thumbnail options" />
+          </button>
+        </div>
+      </a>
+      <a class="thumbnail" href="https://www.youtube.com/watch?v=rilFfbm7j8k" target="_blank">
+        <div class="thumbnail-img">
+          <img
+            src="https://i.ytimg.com/vi/rilFfbm7j8k/maxresdefault.jpg"
+            alt="recommendation video" />
+          <div class="duration">
+            <span>18:08</span>
+          </div>
+          <div class="thumbnail-img-overlay">
+            <button class="btn">
+              <img src="img/clock.svg" alt="watch later" />
+            </button>
+            <button class="btn">
+              <img src="img/playlist-play.svg" alt="add to queue" />
+            </button>
+          </div>
+        </div>
+        <div class="thumbnail-info">
+          <h3 class="thumbnail-title">
+            Tom & Jerry | Triple Trouble
+          </h3>
+          <div class="thumbnail-channel-name">
+            WB Kids
+          </div>
+          <p class="thumbnail-video-info">12M views</p>
+        </div>
+        <div class="thumbnail-overlay">
+          <button class="btn">
+            <img src="img/dots-vertical-thumb.svg" alt="thumbnail options" />
+          </button>
+        </div>
+        <a class="thumbnail" href="https://www.youtube.com/watch?v=16T0lvYHtkE" target="_blank">
+          <div class="thumbnail-img">
+            <img
+              src="https://i.ytimg.com/vi/16T0lvYHtkE/maxresdefault.jpg"
+                alt=" recommendation video" />
+            <div class="duration">
+              <span>17:45</span>
+            </div>
+            <div class="thumbnail-img-overlay">
+              <button class="btn">
+                <img src="img/clock.svg" alt="watch later" />
+              </button>
+              <button class="btn">
+                <img src="img/playlist-play.svg" alt="add to queue" />
+              </button>
+            </div>
+          </div>
+          <div class="thumbnail-info">
+            <h3 class="thumbnail-title">
+              Tom & Jerry | Tiny Friends
+            </h3>
+            <div class="thumbnail-channel-name">
+              WB Kids
+            </div>
+            <p class="thumbnail-video-info">19M views</p>
+          </div>
+          <div class="thumbnail-overlay">
+            <button class="btn">
+              <img src="img/dots-vertical-thumb.svg" alt="thumbnail options" />
+            </button>
+          </div>
+          <a class="thumbnail" href="https://www.youtube.com/watch?v=bCtlituS9p8" target="_blank">
+            <div class="thumbnail-img">
+              <img
+                src="https://i.ytimg.com/vi/bCtlituS9p8/maxresdefault.jpg"
+                alt="recommendation video" />
+              <div class="duration">
+                <span>20:21</span>
+              </div>
+              <div class="thumbnail-img-overlay">
+                <button class="btn">
+                  <img src="img/clock.svg" alt="watch later" />
+                </button>
+                <button class="btn">
+                  <img src="img/playlist-play.svg" alt="add to queue" />
+                </button>
+              </div>
+            </div>
+            <div class="thumbnail-info">
+              <h3 class="thumbnail-title">
+                Tom & Jerry | Trouble Everywhere
+              </h3>
+              <div class="thumbnail-channel-name">
+                WB Kids
+                <img src="img/check-circle.svg" alt="verified" />
+              </div>
+              <p class="thumbnail-video-info">Recommended for you</p>
+            </div>
+            <div class="thumbnail-overlay">
+              <button class="btn">
+                <img src="img/dots-vertical-thumb.svg" alt="thumbnail options" />
+              </button>
+            </div>
+          </a>
+    </section>
+    </aside>
+    <section class="comment-section">
+      <div class="comments-info">
+        <span class="comments-count">19,350 Comments</span>
+        <button class="btn sort-btn">
+          <img src="img/sort-variant.svg" alt="sort by" />
+          SORT BY
+        </button>
+      </div>
+      <div class="new-comment">
+        <div class="user-avatar">
+          <img src="//s.ytimg.com/yts/img/avatar_720-vflYJnzBZ.png" alt="user avatar" />
+        </div>
+        <input class="comment-input" type="text" placeholder="Add a public comment..." />
+      </div>
+      <div class="comment">
+        <div class="user-avatar">
+          <img src="https://yt3.ggpht.com/a/AGF-l78vZoNvE4pPXoKWwB1miEObqUxursnGdb5t2Q=s48-c-k-c0xffffffff-no-rj-mo"
+            alt="user avatar" />
+        </div>
+        <div class="comment-info">
+          <div class="comment-user">
+            <span class="user-name">Zanhir</span>
+            <span class="comment-time">6 days ago (edited)</span>
+          </div>
+          <div class="comment-text">
+            Everyone: "Why are bees so big?" <br />
+            Spiders: "Am i a joke to you?"
+          </div>
+          <div class="comment-options">
+            <button class="btn cm-like-btn">
+              <img src="img/thumb-up.svg" alt="comment like button" />
+              <span>6.5K</span>
+            </button>
+            <button class="btn cm-dislike-btn">
+              <img src="img/thumb-down.svg" alt="comment dislike button" />
+            </button>
+            <button class="btn cm-reply-btn">
+              <span>REPLY</span>
+            </button>
+          </div>
+          <button class="btn cm-show-replies-btn">
+            <img src="img/menu-down.svg" alt="show comment replies" />
+            <span>View 79 replies</span>
+          </button>
+        </div>
+      </div>
+      <div class="comment">
+        <div class="user-avatar">
+          <img src="https://yt3.ggpht.com/a/AGF-l7-JmgvvTl3H5CwFhsNBMGDbjymSEI34gmr9IA=s48-c-k-c0xffffffff-no-rj-mo"
+            alt="user avatar" />
+        </div>
+        <div class="comment-info">
+          <div class="comment-user">
+            <span class="user-name">
+              Bman
+            </span>
+            <span class="comment-time">1 day ago</span>
+          </div>
+          <div class="comment-text">
+            Everyone: “cave update??” <br />
+            <br />
+            Minecraft: “ya like jazz”
+          </div>
+          <div class="comment-options">
+            <button class="btn cm-like-btn">
+              <img src="img/thumb-up.svg" alt="comment like button" />
+              <span>66</span>
+            </button>
+            <button class="btn cm-dislike-btn">
+              <img src="img/thumb-down.svg" alt="comment dislike button" />
+            </button>
+            <button class="btn cm-reply-btn">
+              <span>REPLY</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="comment">
+        <div class="user-avatar">
+          <img src="https://yt3.ggpht.com/a/AGF-l78dyAA0npLfq1vhqDe-YYbVAulU3xgDz1ZnIw=s48-c-k-c0xffffffff-no-rj-mo"
+            alt="user avatar" />
+        </div>
+        <div class="comment-info">
+          <div class="comment-user">
+            <span class="user-name">Huzaifa Yousaf </span>
+            <span class="comment-time">1 day ago</span>
+          </div>
+          <div class="comment-text">
+            <strong>“The bees are bee’ier than before.”</strong>
+          </div>
+          <div class="comment-options">
+            <button class="btn cm-like-btn">
+              <img src="img/thumb-up.svg" alt="comment like button" />
+              <span>34</span>
+            </button>
+            <button class="btn cm-dislike-btn">
+              <img src="img/thumb-down.svg" alt="comment dislike button" />
+            </button>
+            <button class="btn cm-reply-btn">
+              <span>REPLY</span>
+            </button>
+          </div>
+          <button class="btn cm-show-replies-btn">
+            <img src="img/menu-down.svg" alt="show comment replies" />
+            <span>View reply</span>
+          </button>
+        </div>
+      </div>
+      <div class="comment">
+        <div class="user-avatar">
+          <img src="https://yt3.ggpht.com/a/AGF-l7_T78tz-NJZB93qCy5g6_HDMOsrKTrwHDQeGQ=s48-c-k-c0xffffffff-no-rj-mo"
+            alt="user avatar" />
+        </div>
+        <div class="comment-info">
+          <div class="comment-user">
+            <span class="user-name">Billy Bob</span>
+            <span class="comment-time">2 days ago</span>
+          </div>
+          <div class="comment-text">
+            Everybody: Hows the cave update going? <br />
+            <br />
+            <br />
+            Minecraft: What cave update?
+          </div>
+          <div class="comment-options">
+            <button class="btn cm-like-btn">
+              <img src="img/thumb-up.svg" alt="comment like button" />
+              <span>329</span>
+            </button>
+            <button class="btn cm-dislike-btn">
+              <img src="img/thumb-down.svg" alt="comment dislike button" />
+            </button>
+            <button class="btn cm-reply-btn">
+              <span>REPLY</span>
+            </button>
+          </div>
+          <button class="btn cm-show-replies-btn">
+            <img src="img/menu-down.svg" alt="show comment replies" />
+            <span>View 7 replies</span>
+          </button>
+        </div>
+      </div>
+      <div class="comment">
+        <div class="user-avatar">
+          <img src="https://yt3.ggpht.com/a/AGF-l7-qmbtd_ZVLaReCLv3o4eedwxD2Zqz_sx0whQ=s48-c-k-c0xffffffff-no-rj-mo"
+            alt="user avatar" />
+        </div>
+        <div class="comment-info">
+          <div class="comment-user">
+            <span class="user-name">general gold742 </span>
+            <span class="comment-time">1 week ago</span>
+          </div>
+          <div class="comment-text">
+            I wish worlds were actually generated like this
+          </div>
+          <div class="comment-options">
+            <button class="btn cm-like-btn">
+              <img src="img/thumb-up.svg" alt="comment like button" />
+              <span>12K</span>
+            </button>
+            <button class="btn cm-dislike-btn">
+              <img src="img/thumb-down.svg" alt="comment dislike button" />
+            </button>
+            <button class="btn cm-reply-btn">
+              <span>REPLY</span>
+            </button>
+          </div>
+          <button class="btn cm-show-replies-btn">
+            <img src="img/menu-down.svg" alt="show comment replies" />
+            <span>View 189 replies</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </div>
+  </div>
+</body>
+
+</html>
+
+</body>
+
+</html>
